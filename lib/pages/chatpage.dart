@@ -25,11 +25,6 @@ class _ChatPageState extends State<ChatPage> {
           itemBuilder: (context, index) {
             return CustomCard(chatModel: chats[index],);
           },
-
-        // itemCount: widget.chatmodels.length,
-        // itemBuilder: (contex, index) => CustomCard(
-        //   chatModel: widget.chatmodels[index],
-        //   sourchat: widget.sourchat,
         ),
       );
   }
